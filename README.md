@@ -1,7 +1,6 @@
-# Time-Series-Analysis:Stock-Prices-Prediction
+# Time-Series-Analysis:Stock-Prices-Prediction-Ibovespa
 
-In this notebook we perfom a time series analysis of the prices of the german fund (https://fundsus.dws.com/us/en-us/products/closed-end-funds/the-new-germany-fund-inc.html). We use the moving averege, exponential smoothing and double exponential smoothing to identify trends in the stock prices.
-The following libraries were used:
+In this notebook we perform a time series analysis of the brazilian Ibovespa index , spanning a range from 249 trading days. Ir order to look for trends in the prices we apply the moving averege, exponential averege and double exponential averege algorithms. And we apply the Dickey-Fuller test to check if there is any stationary behavior. The following libraries were used:
 - numpy
 - pandas
 - matplotlib
